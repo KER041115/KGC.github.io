@@ -11,18 +11,31 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
         }
         img {
             max-width: 95%;
-            max-height: 95%;
+            max-height: 80%;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .counter {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 <body>
-    <!-- 确认文件名和上传的图片一致，比如你的是 001.jpg -->
+    <!-- 确认文件名和上传的图片一致 -->
     <img src="001.jpg" alt="展示图片">
+
+    <!-- 访问计数器 -->
+    <div class="counter">
+        本页面访问次数：
+        <img src="https://hits.sh/ker041115.github.io.svg?label=views&color=blue&style=flat-square" alt="访问次数">
+    </div>
 </body>
 </html>
