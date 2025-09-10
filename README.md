@@ -1,0 +1,2 @@
+# KGC.github.io
+THE FIRST THING I DO AT GITHUB
